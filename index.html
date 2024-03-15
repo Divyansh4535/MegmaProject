@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThisIsMagma</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="main w-full h-full  overflow-hidden bg-[#1239CC]">
+        <div data-scroll data-scroll-speed="-5" class="page1 relative ">
+            <nav class=" flex items-center justify-between top-[3%] absolute mt-3 h-36 w-full">
+                <img class="ml-12 w-10 h-10" src="./logo.png"></img>
+                <div class="r-nav flex items-center w-44 justify-between mr-16 text-white ">
+                    <button class="border border-blue-300 rounded-full text-xs px-4 py-2">Book a Demo</button>
+                    <button class="border border-blue-300 rounded-full ml-[10%] fixed text-sm px-5 py-1"><i
+                            class="ri-menu-fill"></i>
+                    </button>
+                </div>
+            </nav>
+            <div class="  top-[35%] content1 absolute text-white ml-[10%] ">
+                <h1 class="text-8xl font-light font-[Jost]"> Experience Real <br> Estate Agility</h1>
+                <div class="content1p2 flex font-[Jost]  gap-10 mt-14">
+                    <h5 class="w-[40%] text-xl font-Extrathin">Create a Digital Twin Token (DTT®) of your existing
+                        building and release the potential of Web3.</h5>
+                    <button
+                        class="border border-blue-300 h-10 text-blue-800 bg-white mt-[5%]  rounded-full text-lg px-2 py-1 w-[20%]">Learn
+                        more</button>
+                </div>
+            </div>
+            <video class="h-[100%] w-[100%] object-center object-cover"
+                src="https://thisismagma.com/wp-content/themes/magma/assets/home/hero/1.mp4?2" preload="auto" autoplay
+                loop muted playsinline="" style="opacity: 1;"></video>
+        </div>
+        <div class="page2 bg-[#1341DC] flex flex-col gap-10 items-start justify-center px-[8vw] font-[Jost]  ">
+            <h4 class="text-xl text-white">CERTIFY YOUR BUILDING AS A DIGITAL TWIN TOKEN (DTT®)</h4>
+            <h1 class="text-6xl font-light leading-tight text-[#dadada69]">The Digital Twin Token is a unique digital
+                asset backed by property data. Magma combines your building’s components and systems essential
+                information into a DTT®.
+            </h1>
+        </div>
+        <div class="page3 relative bg-[#1341DC]  h-[100vh] w-[100vw]">
+            <canvas class="max-w-[100vw] max-h-[100vh] relative">
+            </canvas>
+        </div>
+        <div
+            class="page4 relative bg-[#143AD1] h-[100vh] w-[100vw] flex flex-col gap-10 items-start justify-center font-[Jost] px-[8vw]">
+            <h5 class="text-xl text-white"> CONNECT THE BUILDING'S TWIN TO YOUR STAKEHOLDERS</h5>
+            <h1 class="text-6xl font-light leading-tight text-[#dadada69]">Users connect directly to the DTT® without
+                any intermediaries. As Stakeholder, they have the power to upload and verify information that enriches
+                the Digital Twin Token. A Stakeholder's ability to access validated-data to perform tasks depends on
+                their specific role.</h1>
+        </div>
+        <div class="page5 relative bg-[#1341DC]  h-[100vh] w-[100vw]">
+            <canvas class="max-w-[100vw] max-h-[100vh] relative">
+            </canvas>
+        </div>
+        <div
+            class="page6 relative bg-[#1239CC] mt-5 h-[100vh] w-[100vw] flex flex-col gap-10 items-start justify-center font-[Jost] px-[8vw]">
+            <h5 class="text-xl text-white"> INCREASE YOUR DIGITAL TWIN TOKEN’S VALUE</h5>
+            <h1 class="text-6xl font-light leading-tight text-[#dadada69]">DTT® data increases the value of your digital
+                asset by lowering operational costs, improving energy use, assisting commercialization, and boosting the
+                liquidity of your building.
+            </h1>
+        </div>
+        <div class="page7 bg-[#0A3CCE] h-[100vh] w-[100vw]  relative">
+            <div
+                class="P7Cir translate-x-[-50%]  translate-y-[-50%] absolute z-30 h-[15vw] w-[15vw] border border-white top-[50%] left-[50%]   rounded-full flex items-center justify-center">
+                <div class="innerCir h-[70%] w-[70%] border border-white rounded-full "></div>
+            </div>
+            <canvas class="relative max-w-[100vw] max-h-[100vh]"> </canvas>
+        </div>
+        <div class="page8 relative h-[100vh] w-[100vw] bg-white-600">
+            <div class="P8B absolute translate-x-[-50%] text-center bottom-[18%] left-[50%] font-[Jost]">
+                <h1 class="text-8xl font-light text-white z-10"> Magma DTT®</h1>
+                <button
+                    class="border border-white rounded-full px-10 py-2 mt-10 bg-white text-[#093DCC] z-10 text-xl ">Learn
+                    more</button>
+            </div>
+            <video autoplay muted loop src="https://thisismagma.com/wp-content/themes/magma/assets/home/glass/1.webm?2"
+                class="h-[100%] w-[100%] object-cover"></video>
+        </div>
+        <div class="page9 relative flex  gap-5 font-[Jost] text-white w-[100vw] h-[200vh] mt-20 ">
+            <h1 class=" w-[30%] text-8xl font-light ml-[10%] h-[100%]"> What is
+                Magma?</h1>
+            <div class="P9Content mr-[10%] flex flex-col w-[60%] h-[100%]">
+                <img src="https://thisismagma.com/wp-content/uploads/2023/04/magma.wp2.cubdev.com-home-1.jpeg" alt="">
+                <div class="P9H1 mt-16">
+                    <h3 class="text-2xl "> Web3 platform</h3>
+                    <p class="text-2xl mt-4 font-extralight"> Magma is a Web3 platform for all real estate stakeholders,
+                        which provides users with the ability to manage interactions between physical and digital assets
+                        through unique, and collectively generated, 3D representations of their buildings.</p>
+                </div>
+                <div class="P9H1 mt-16">
+                    <h3 class="text-2xl "> The Digital Twin Token: The building’s unique digital copy</h3>
+                    <p class="text-2xl mt-4 font-extralight"> Magma uses blockchain technology to record essential data,
+                        which enables transparent, traceable, and immutable streams of information to be readily
+                        accessible to its users. Magma smart contracts are built with this blockchain data to expedite
+                        tasks like requests for proposals, lease agreements, and services arrangements.</p>
+                </div>
+                <div class="P9H1 mt-16">
+                    <h3 class="text-2xl "> An Index of digitization</h3>
+                    <p class="text-2xl mt-4 font-extralight"> The Magma Index provides valuable insight for
+                        decision-making regarding data-sharing, service-creating, and operational/environmental
+                        expectations.</p>
+                </div>
+            </div>
+        </div>
+        <div class="page10 flex flex-col gap-10  h-[150vh] w-[100vw] bg-white">
+            <h1 class=" mt-[5%] ml-[10%] text-black text-8xl font-normal">Recent blog</h1>
+            <div class="p10flex mt-[3%] gap-10 flex flex-col">
+                <div class="P10inner flex px-[10%] gap-10 py-1  w-[100%]  h-[20%]  top-[20%] ">
+                    <div class="image rounded-lg bg-white h-[100%] w-[50%]"><img
+                            class="object-center object-cover h-[100%] w-[100%] rounded-lg"
+                            src="https://thisismagma.com/wp-content/uploads/2024/03/thisismagma.com-live-event-1-min-scaled.jpg"
+                            alt=""></div>
+                    <div class="content10 mt-[8%] font-[Jost] text-grey h-[100%] w-[50%]">
+                        <p class="text-xl">mar 4, 2024</p>
+                        <h2 class="text-2xl mt-2">Live event on Real-World Assets tokenization:march 21stat 10Am EST/4pm
+                            CET</h2>
+                    </div>
+                </div>
+                <div class="P10inner flex px-[10%] gap-10 py-1  w-[100%]  h-[20%]  top-[45%] ">
+                    <div class="image rounded-lg bg-white h-[100%] w-[50%]"><img
+                            class="object-center object-cover h-[100%] w-[100%] rounded-lg"
+                            src="https://thisismagma.com/wp-content/uploads/2024/03/thisismagma.com-live-event-1-min-scaled.jpg"
+                            alt=""></div>
+                    <div class="content10 mt-[8%] font-[Jost] text-grey h-[100%] w-[50%]">
+                        <p class="text-xl">mar 4, 2024</p>
+                        <h2 class="text-2xl mt-2">Live event on Real-World Assets tokenization:march 21stat 10Am EST/4pm
+                            CET</h2>
+                    </div>
+                </div>
+                <div class="P10inner flex px-[10%] gap-10 py-1  w-[100%]  h-[20%]  top-[75%] ">
+                    <div class="image rounded-lg bg-white h-[100%] w-[50%]"><img
+                            class="object-center object-cover h-[100%] w-[100%] rounded-lg"
+                            src="https://thisismagma.com/wp-content/uploads/2024/03/thisismagma.com-live-event-1-min-scaled.jpg"
+                            alt=""></div>
+                    <div class="content10 mt-[8%] font-[Jost] text-grey h-[100%] w-[50%]">
+                        <p class="text-xl">mar 4, 2024</p>
+                        <h2 class="text-2xl mt-2">Live event on Real-World Assets tokenization:march 21stat 10Am EST/4pm
+                            CET</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page11 bg-[#093DCC] font-[Jost] relative h-[100vh] w-[100vw]">
+            <div class="foot w-[100%] absolute left-[50%] top-[30%] h-[100%]">
+                <h1 class="text-8xl font-light text-white ">Featured In</h1>
+                <p class="w-[40%] mt-5 text-2xl font-light leading-tight text-[#fff]"> Thrilled to have been featured in
+                    several prominent media outlets and leading professionals across the world’s best real estate and
+                    web3 institutions.
+                </p>
+            </div>
+        </div>
+        <div class="page12 flex flex-col bg-black text-white font-[Jost] relative h-[200vh] w-[100vw]">
+            <div class="absolute flex flex-col top-[10%] left-[10%] h-[40%] w-[100%]">
+                <h1 class=" text-8xl font-light w-[50%] ">Become an <br> early adopter </h1>
+                <button class=" rounded-full px-8 py-3 mt-10 bg-[#093DCC] text-white z-10 text-base w-[15%] "> BOOK A DEMO </button>
+            </div>
+            <div class="P12Inner flex flex-col border-t-2 border-[#1C1C24] absolute top-[35%] h-[20%] w-[100%]">
+                <div class="social relative h-[10%] flex  py-16  w-[100%] flex justify-between items-center ">
+                    <h1 class="text-5xl relative font-normal ml-[5%]  z-30"> Twitter</h1>
+                    <i class="ri-arrow-right-up-line mr-[5%] relative z-30"></i>
+                    <div class="effect12 h-[0%] absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%] "></div>
+                </div> 
+            </div>
+            <div class="P12Inner flex flex-col border-t-2 border-[#1C1C24] absolute top-[45%] h-[20%] w-[100%]">
+                <div class="social h-[10%] flex items-center  py-16  w-[100%] flex justify-between items-center  ">
+                    <h1 class="text-5xl relative font-normal ml-[5%]  z-[9999]"> Linkedin</h1>
+                    <i class="ri-arrow-right-up-line mr-[5%]"></i>
+                    <div class="effect12 h-[0%] absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%] "></div>
+                </div>
+            </div>
+            <div class="P12Inner flex flex-col border-t-2 col border-b-2  border-[#1C1C24] absolute top-[55%] h-[10%] w-[100%]">
+                    <div class="social h-[10%] flex items-center  py-16  w-[100%] flex justify-between items-center  ">
+                        <h1 class="text-5xl relative font-normal ml-[5%]  z-[9999]"> Instagram</h1>
+                        <i class="ri-arrow-right-up-line mr-[5%]"></i>
+                        <div class="effect12 h-[0%] absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%] "></div>
+                    </div>
+            </div>
+            <div class="footitem flex h-[30%] w-[100%] relative top-[70%] left-[10%]">
+                <div class="item w-[60%] flex gap-40 "> 
+                    <div class="1 text-xl flex flex-col gap-2   ">
+                        <h3>Mission</h3>
+                        <h3>Product</h3>
+                        <h3>Blog</h3>
+                        <h3>FQ</h3>
+                    </div>
+                    <div class="2 text-xl flex flex-col gap-2">
+                        <h3>Contact</h3>
+                        <h3>Privacy Policy</h3>
+                        <h3>Terms</h3>
+                    </div>
+                </div>
+                <div class="sub w-[50%] flex flex-col gap-2">
+                    <h1 class="text-2xl">Subscribe</h1>
+                    <input class="w-[55%] bg-transparent border h-[8%] px-5 "type="email" class="border-none " placeholder="Email" >
+                </div>
+                <h3 class="absolute top-[70%] ">© 2024 by DK</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
